@@ -29,12 +29,12 @@ namespace YNI_Task_01
 
             if (gold < 0)
             {
-                Console.WriteLine("\nУуу, да вы в долгах.");
-                Console.Write("У вас нет кристаллов, да и денег на них нету...");
+                Console.WriteLine("\nвам не хватает средств на совершение сделки.");
+                Console.Write("У вас нет кристаллов, и не хватает золота");
             }
             else if (gold < crystalCost)
             {
-                Console.WriteLine("\nУ вас не хватает денег даже на один кристалл.");
+                Console.WriteLine("\nУ вас не хватает золота даже на один кристалл.");
                 Console.WriteLine($"У вас {gold} золота и {crystalsToBuy} кристаллов.");
             }
             else
@@ -55,7 +55,7 @@ namespace YNI_Task_01
 
                 if (crystalsToBuy * crystalCost > gold)
                 {
-                    Console.WriteLine("\nmaaaan... не хватает...");
+                    Console.WriteLine("\nне хватает");
                     crystalsToBuy = 0;
                     Console.WriteLine($"У вас {gold} золота и {crystalsToBuy} кристаллов.");
                 }
