@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30509.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YNI_Task_02", "YNI_Task_02.csproj", "{A5CCD11A-115C-4653-90A7-DE976F62CC43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CCD11A-115C-4653-90A7-DE976F62CC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CCD11A-115C-4653-90A7-DE976F62CC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CCD11A-115C-4653-90A7-DE976F62CC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CCD11A-115C-4653-90A7-DE976F62CC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87157DBD-59A3-44E8-8226-1059DC6B2AF9}
+	EndGlobalSection
+EndGlobal

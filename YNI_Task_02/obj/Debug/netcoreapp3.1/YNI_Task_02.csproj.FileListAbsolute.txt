@@ -1,0 +1,13 @@
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.exe
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.deps.json
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.runtimeconfig.json
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.runtimeconfig.dev.json
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.dll
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\bin\Debug\netcoreapp3.1\YNI_Task_02.pdb
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.csprojAssemblyReference.cache
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.AssemblyInfoInputs.cache
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.AssemblyInfo.cs
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.csproj.CoreCompileInputs.cache
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.dll
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.pdb
+C:\Users\shtan\Desktop\Практика 3 курс\YNI_Task_02\obj\Debug\netcoreapp3.1\YNI_Task_02.genruntimeconfig.cache
