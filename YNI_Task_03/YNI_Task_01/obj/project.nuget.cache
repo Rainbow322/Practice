@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MhfIo8tu6AzoOWLjqEcYtYUrDkWw0mNhT0dcqMt9Ix+vFA0j9fsrzBGmQQsu15sMUGMfgcKrbu3NAdbB2cOnPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shtan\\Desktop\\Практика 3 курс\\YNI_Task_01\\YNI_Task_01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shtan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
