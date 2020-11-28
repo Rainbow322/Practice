@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\bin\Debug\YNI_Project.exe.config
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\bin\Debug\YNI_Project.exe
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\bin\Debug\YNI_Project.pdb
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.Form1.resources
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.Properties.Resources.resources
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.exe
+C:\Users\Home\Desktop\Учеба\Ильюшенков\Практика\YNI_Project\obj\Debug\YNI_Project.pdb
