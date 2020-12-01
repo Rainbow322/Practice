@@ -10,7 +10,6 @@ namespace YNI_Task_06
     {
         private static string[,] _dossier = new string[0, 2];
         private static int _size = 0;
-
         static void Main(string[] args)
         {
             int inputCommand = 0;
@@ -65,17 +64,16 @@ namespace YNI_Task_06
                 Console.ReadKey();
             }
         }
-
         private static void AddDossier()
         {
             Console.Write("Введите фамилию: ");
-            string fio = Console.ReadLine() + " ";
+            string fio = Console.ReadLine();
 
             Console.Write("Введите имя: ");
-            fio += Console.ReadLine() + " ";
+            string name = " " + Console.ReadLine() + " ";
 
             Console.Write("Введите отчество: ");
-            fio += Console.ReadLine();
+            name += Console.ReadLine() + " - ";
 
             Console.Write("Введите должность: ");
             string post = Console.ReadLine();
@@ -97,29 +95,21 @@ namespace YNI_Task_06
             _size = newsize;
 
             _dossier[_size - 1, 0] = fio;
-            _dossier[_size - 1, 1] = post;
+            _dossier[_size - 1, 1] = name + post;
             Console.WriteLine("Досье успешно добавлено!");
         }
-
-
-
-
-
         private static void ShowDossiers()
         {
             if (_size > 0)
             {
                 Console.WriteLine("Список досье:");
-                for (int i = 0; i < _size; i++) Console.WriteLine($"{i + 1}) {_dossier[i, 0]} - {_dossier[i, 1]}");
+                for (int i = 0; i < _size; i++) Console.WriteLine($"{i + 1}) {_dossier[i, 0]}{_dossier[i, 1]}");
             }
             else
             {
                 Console.WriteLine("Досье остутствуют.");
             }
         }
-
-
-
         private static void RemoveDossier()
         {
             int numberOfDossier;
@@ -136,15 +126,12 @@ namespace YNI_Task_06
                     Console.WriteLine("Некорректный номер досье!");
                     goto inputNumberErr;
                 }
-
                 numberOfDossier -= 1;
-
                 if (numberOfDossier >= _size || numberOfDossier < 0)
                 {
                     Console.WriteLine("Неправильный индекс. Повторите попытку!");
                     goto inputNumberErr;
                 }
-
                 string[,] cloneDossier = new string[_size - 1, 2]; //Временная переменная для обновления списка(массива)
                 int tempNum = 0;
                 for (int i = 0; i < _size; i++)
@@ -164,19 +151,14 @@ namespace YNI_Task_06
                 _size -= 1;
             }
         }
-
-
-
-
-
         private static void SearchDossier(string searchForSurname)
         {
             int count = 0;
             for (int i = 0; i < _size; i++)
-            {
-                if (_dossier[i, 0].IndexOf(searchForSurname) >= 0)
+            { 
+                if (String.Compare(_dossier[i, 0], searchForSurname) == 0)
                 {
-                    Console.WriteLine($"Досье: {i + 1}) {_dossier[i, 0]} - {_dossier[i, 1]}");
+                    Console.WriteLine($"Досье: {i + 1}) {_dossier[i, 0]}{_dossier[i, 1]}");
                     count++;
                 }
             }
